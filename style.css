@@ -1,6 +1,62 @@
 /*Write your code below your name's comment. DO NOT EDIT OTHER PEOPLES WORK!!!*/
 /*Hudson*/
+html, body {
+  margin: 0;
+  height: 100%;
+}
 
+.container {
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box; /* Includes padding in width/height calculations */
+  
+  /* Row 1 is only as tall as the header needs; Row 2 (main) takes up all remaining height */
+  grid-template-rows: auto 1fr;
+  grid-template-columns: 200px 1fr;
+  background-color: dodgerblue;
+  padding: 0px;
+  gap: 0px; /* Optional: adds spacing between your grid boxes */
+}
+
+.container div {
+  background-color: rgb(255, 255, 255);
+  padding: 0px;
+  font-size: 30px;
+  text-align: center;
+}
+
+/* Make the sidebar span across both rows on the left */
+#sidebar {
+  background-color: rgb(131, 131, 129);
+  grid-row: span 2;
+  border-right: none; 
+}
+
+#header {
+  grid-column: 2;
+  padding: 20px 140px; /* Keeps the header nice and slim */
+  background-color:dodgerblue;
+}
+
+#main {
+  grid-column: 2;
+  text-align: left;
+  background-color:ffff;
+}
+
+#card {
+    background-color: white;
+    padding: 2px 2px;      /* Space inside */
+   
+}
+
+
+#highlight {
+    background-color:rgb(131, 131, 129);
+    padding: 15px 140px;      /* Space inside */
+    margin-bottom: 10px; /* Push next element down */
+        }
 
 
 
