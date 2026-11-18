@@ -13,19 +13,58 @@
 <style>
   .card {
     background-color: #08F;
-    border: 2px solid #000000;
+    border: 2px solid #ffffff;
     padding: 30px;      /* Space inside */
     margin-bottom: 10px; /* Push next element down */
     border-radius: 10px; /* Rounded corners */
   }
+
+  html, body {
+  margin: 0;
+  height: 15%;
+}
+
+.container {
+  display: grid;
+  width: 100vw;
+  height:30vh;
+  box-sizing: border-box; /* Includes padding in width/height calculations */
+  
+  /* Row 1 is only as tall as the header needs; Row 2 (main) takes up all remaining height */
+  grid-template-rows: auto 1fr;
+  grid-template-columns: 200px 1fr;
+  background-color: dodgerblue;
+  padding: 0px;
+  gap: 0px; /* Optional: adds spacing between your grid boxes */
+}
+
+.container div {
+  background-color: rgb(255, 255, 255);
+  padding: 0px;
+  font-size: 30px;
+  text-align: center;
+}
+
+#header {
+  grid-column: 2;
+  padding: 20px 140px; /* Keeps the header nice and slim */
+  background-color:dodgerblue;
+}
 </style>
 
-<div class="card">
+<div class="container" id="header">
   <h1>Projects</h1>
-  <p>Welcome to the Projects page!</p>
 </div>
-    <!-- <link rel="stylesheet" href="style.css"> -->
+<!-- <link rel="stylesheet" href="style.css"> -->
 <img src="https://scx2.b-cdn.net/gfx/news/hires/2019/3-robot.jpg" alt="" width="475" height="475">
-
+<p>In this class we will be making robotic arms, RC cars, and ESP 32-based projects.</p>
 </head>
 
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>My first paragraph.</p>
+
+</body>
+</html>
