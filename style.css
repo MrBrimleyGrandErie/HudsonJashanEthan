@@ -72,14 +72,46 @@ html, body {
 
 
 /*Jashan*/
-    .card {
+
+.card2 {
     background-color: #08F;
-    border: 2px solid #000000;
+    border: 2px solid #ffffff;
     padding: 30px;      /* Space inside */
     margin-bottom: 10px; /* Push next element down */
     border-radius: 10px; /* Rounded corners */
   }
 
+  html, body {
+  margin: 0;
+  height: 15%;
+}
+
+.container {
+  display: grid;
+  width: 100vw;
+  height:30vh;
+  box-sizing: border-box; /* Includes padding in width/height calculations */
+  
+  /* Row 1 is only as tall as the header needs; Row 2 (main) takes up all remaining height */
+  grid-template-rows: auto 1fr;
+  grid-template-columns: 200px 1fr;
+  background-color: dodgerblue;
+  padding: 0px;
+  gap: 0px; /* Optional: adds spacing between your grid boxes */
+}
+
+.container div {
+  background-color: rgb(255, 255, 255);
+  padding: 0px;
+  font-size: 30px;
+  text-align: center;
+}
+
+#header {
+  grid-column: 2;
+  padding: 20px 140px; /* Keeps the header nice and slim */
+  background-color:dodgerblue;
+}
 
 
 
