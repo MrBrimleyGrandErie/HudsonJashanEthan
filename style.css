@@ -104,20 +104,13 @@ html, body {
   background-color:dodgerblue;
 
 
-.card {
+.card4 {
     background-color: #08F;
     border: 5px solid #08F;
     padding: 10px;      /* Space inside */
     margin-bottom: 15px; /* Push next element down */
     border-radius: 8px; /* Rounded corners */
         }
-  .card2 {
-    background-color: #08F;
-    border: 5px solid #08F;
-    padding: 10px;      /* Space inside */
-    margin-bottom: 15px; /* Push next element down */
-    border-radius: 8px; /* Rounded corners */
-    }
   #Header {
     background-color: #0b4623;
     color: #000000;
@@ -125,13 +118,6 @@ html, body {
     border-radius: 8px 8px 0 0; /* Rounded top corners */
     }
 
-.card2 {
-    background-color: #08F;
-    border: 2px solid #ffffff;
-    padding: 30px;      /* Space inside */
-    margin-bottom: 10px; /* Push next element down */
-    border-radius: 10px; /* Rouded corners */
-  }
 
 
 
