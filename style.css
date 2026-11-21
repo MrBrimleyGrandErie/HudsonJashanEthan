@@ -81,6 +81,70 @@ html, body {
     color: white;
 }
 
+ #highlight1 {
+    position: absolute;
+    right: 225px;
+    top: 200px;
+    background-color: #739dc8;
+    padding: 15px 20px;
+    color: white;
+    margin: 0;
+    border-radius: 10px; /* Rounded corners */
+}
+#highlight2 {
+    position: absolute;
+    right: 15px;
+    top: 260px;
+    background-color: #739dc8;
+    padding: 15px 10px;
+    color: white;
+    margin: 0;
+    border-radius: 25px; /* Rounded corners */
+}
+
+#highlight3 {
+    position: absolute;
+    right: 270px;
+    top: 360px;
+    background-color: #739dc8;
+    padding: 15px 20px;
+    color: white;
+    margin: 0;
+    border-radius: 10px; /* Rounded corners */
+}
+#highlight4 {
+    position: absolute;
+    right: 60px;
+    top: 420px;
+    background-color: #739dc8;
+    padding: 15px 20px;
+    color: white;
+    margin: 0;
+    border-radius: 25px; /* Rounded corners */
+}
+
+#highlight5 {
+    position: absolute;
+    right: 255px;
+    top: 520px;
+    background-color: #739dc8;
+    padding: 15px 20px;
+    color: white;
+    margin: 0;
+    border-radius: 10px; /* Rounded corners */
+}
+
+#highlight6 {
+    position: absolute;
+    right: 120px;
+    top: 580px;
+    background-color: #739dc8;
+    padding: 15px 20px;
+    color: white;
+    margin: 0;
+    border-radius: 25px; /* Rounded corners */
+}
+
 
 
 
