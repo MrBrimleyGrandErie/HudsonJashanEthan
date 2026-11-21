@@ -107,7 +107,7 @@ html, body {
   border: 5px solid rgb(68, 81, 92);
   padding: 10px;
   margin-bottom: 15px;
-  border-radius: 25px;
+  border-radius: 99999px;
 }
 
 #Header {
