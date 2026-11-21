@@ -103,11 +103,11 @@ html, body {
 }
 
 .card4 {
-  background-color: #08F;
-  border: 5px solid #08F;
+  background-color: #D9D9D9;
+  border: 5px solid rgb(68, 81, 92);
   padding: 10px;
   margin-bottom: 15px;
-  border-radius: 8px;
+  border-radius: 25px;
 }
 
 #Header {
