@@ -203,6 +203,12 @@ html, body {
   padding: 10px;
   border-radius: 8px 8px 0 0;
 }
+button {
+  background-color: #0b4623;
+  function toggleMenu() {
+    let menu = document.getElementById("dropdownMenu");
+    menu.hidden = !menu.hidden;
+}
 
 /*Ethan*/
 
