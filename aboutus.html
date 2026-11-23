@@ -11,7 +11,7 @@
 <div class="container2">
     <img src="images-removebg-preview (2).png" alt="three lines" width="200" height="200" onclick="toggleMenu()">
     <div id="header2">
-        <h1>About Us</h1>
+        <h1 style="position: absolute; left: 340px;"> About Us</h1>
     </div>
     <div id="dropdownMenu" hidden>
       <a href="homepage.html">Home</a>
@@ -21,16 +21,9 @@
       <a href="aboutus1.html">About Jashan</a>
       <a href="events.html">Events</a>
     </div>
-
-
-<script>
-    function toggleMenu() {
-    let menu = document.getElementById("dropdownMenu");
-    menu.hidden = !menu.hidden;
-}
-</script>
-
+    <br>
 </div>
+
 <br>
 <br>
 <div class="card4">
@@ -47,6 +40,16 @@
     <p>   He enjoys building things, solving problems, and learning new skills. 
         He hopes to help students explore robotics and create exciting projects.</p>
 </div>
+
+<script>
+    function toggleMenu() {
+    let menu = document.getElementById("dropdownMenu");
+    menu.hidden = !menu.hidden;  
+    if (!menu.hidden) {
+    menu.style.zIndex = 1000;
+    }
+}
+</script>
     
 </body>
 </html>
